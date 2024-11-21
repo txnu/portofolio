@@ -1,29 +1,26 @@
 import profile from "../../assets/img/tanu.jpeg";
+import Owner from "./components/owner";
 
-const Dashboard = (props) => {
+const Dashboard = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex space-x-2 px-2 my-2 justify-center text-white">
-        <div className="container">
-          <div className="flex justify-center items-center">
-            <img
-              src={profile}
-              alt="profile"
-              className="w-80 h-auto"
-            />
-          </div>
+      <div className="sm:flex px-2 my-8 justify-between text-white sm:space-x-2 ">
+        <div className="flex px-6 w-full justify-center items-center overflow-hidden">
+          <img
+            src={profile}
+            alt="profile"
+            className="object-cover w-full h-96 rounded-xl border-dashed border-2"
+          />
         </div>
-        <div className="container pt-10">
-          <div className="flex flex-col justify-start items-start">
-            <p className="font-bold text-4xl">Tanu Wijaya</p>
-            <p className="text-lg text-gray-500">Owner of Kedai Programmer</p>
-            <p className="text-lg text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div className="container pt-4">
+          <Owner
+            name="Tanu Wijaya"
+            title="Owner of Kedai Programmer"
+            description=" Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Praesentium delectus repellat eveniet inventore sunt corporis
               quasi, rem ab veritatis reiciendis, voluptatem qui? Ullam modi
-              incidunt hic molestias necessitatibus veritatis expedita.
-            </p>
-          </div>
+              incidunt hic molestias necessitatibus veritatis expedita."
+          />
         </div>
       </div>
     </div>
