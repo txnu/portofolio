@@ -20,12 +20,12 @@ const Navbar = () => {
           <a
             href="#dashboard"
             className="px-4 py-2 rounded-full hover:bg-gray-600 transition-colors duration-300">
-            Dashboard
+            Home
           </a>
           <a
             href="#about"
             className="px-4 py-2  rounded-full hover:bg-gray-600 transition-colors duration-300">
-            About
+            About Us
           </a>
           <a
             href="#service"

@@ -25,6 +25,7 @@ const Dashboard = () => {
           />
         </div>
       </div>
+      <div class="h-2 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full"></div>
     </div>
   );
 };
