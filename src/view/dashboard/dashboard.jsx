@@ -4,13 +4,15 @@ import Owner from "./components/owner";
 const Dashboard = () => {
   return (
     <div className="container mx-auto">
-      <div className="sm:flex px-2 my-8 justify-between text-white sm:space-x-2 ">
-        <div className="flex px-6 w-full justify-center items-center overflow-hidden">
-          <img
-            src={profile}
-            alt="profile"
-            className="object-cover w-full h-96 rounded-xl border-dashed border-2"
-          />
+      <div className="px-2 my-8 justify-between text-white sm:space-x-4 sm:flex ">
+        <div className="container">
+          <div className="px-6 w-full justify-center items-center overflow-hidden">
+            <img
+              src={profile}
+              alt="profile"
+              className="object-cover w-full h-96 rounded-xl border-dashed border-2"
+            />
+          </div>
         </div>
         <div className="container pt-4">
           <Owner

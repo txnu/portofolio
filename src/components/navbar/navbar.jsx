@@ -23,12 +23,12 @@ const Navbar = () => {
             Dashboard
           </a>
           <a
-            href="#section"
+            href="#about"
             className="px-4 py-2  rounded-full hover:bg-gray-600 transition-colors duration-300">
             About
           </a>
           <a
-            href="/"
+            href="#service"
             className="px-4 py-2  rounded-full hover:bg-gray-600 transition-colors duration-300">
             Services
           </a>

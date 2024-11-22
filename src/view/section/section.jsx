@@ -1,5 +1,6 @@
 import About from "../about/about";
 import Dashboard from "../dashboard/dashboard";
+import Service from "../service/service";
 
 const Section = () => {
   return (
@@ -9,6 +10,9 @@ const Section = () => {
       </section>
       <section id="about">
         <About />
+      </section>
+      <section id="service">
+        <Service />
       </section>
     </div>
   );

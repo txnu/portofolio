@@ -1,15 +1,20 @@
-import Tech1 from "../../assets/img/tech1.png";
+import Tech2 from "../../assets/img/tech2.png";
 
-const About = () => {
+const Service = () => {
   return (
     <div className="container mx-auto py-12">
       <div className="md:flex px-2 my-8 justify-between text-white sm:space-x-4 ">
         <div className="flex flex-col items-center sm:items-start mx-4 sm:mx-0 ">
-          <p className="font-bold text-4xl pt-4 pb-2 text-center sm:text-start">
-            About Kedai Programmer
-          </p>
-          <p className="font-semibold text-xl pb-2 text-gray-300">
-            Berdiri sejak 16 Januari 2024
+          <img
+            src={Tech2}
+            alt=""
+            className="object-cover border-2 border-dashed rounded-lg lg:border-none"
+          />
+        </div>
+        <div className="flex flex-col text-center items-center sm:items-start sm:text-start mx-4 sm:mx-0 ">
+          <p className="font-bold text-4xl pt-4 pb-2 md:pt-0">Service</p>
+          <p className="font-semibold text-xl pb-2 text-gray-300 ">
+            Fullstack Development | Web Development | Mobile Development
           </p>
           <p className=" text-lg text-justify text-gray-300 pt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
@@ -18,16 +23,9 @@ const About = () => {
             accusantium magnam!
           </p>
         </div>
-        <div className="flex  pt-4 pb-2 flex-col items-center sm:items-start mx-4 sm:mx-0 ">
-          <img
-            src={Tech1}
-            alt=""
-            className="object-cover border-2 border-dashed rounded-lg lg:border-none"
-          />
-        </div>
       </div>
     </div>
   );
 };
 
-export default About;
+export default Service;
